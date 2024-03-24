@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Social proof section</title>
+
+    <link rel="stylesheet" href="src/output.css">
+  </head>
+  <body class="min-h-screen flex flex-col justify-center items-center">
+    <main class="my-auto grid auto-rows-auto grid-cols-1 gap-5 mx-5 xl:grid-cols-2 xl:max-w-screen-xl">
+      <!-- introduction and sum up-->
+      <section class="flex flex-col text-center gap-5 xl:text-left">
+        <h1 class="text-4xl font-extrabold text-purple-900">10,000+ of our<br> users love our<br> products.</h1>
+        <p class="text-balance">
+          We only provide great products combined with excellent customer service.
+          See what our satisfied customers are saying about our services.
+        </p>
+      </section>
+      <!-- platform ratings -->
+      <section class="flex flex-col gap-5">
+        <!-- Platform 1 -->
+        <div class="flex flex-col gap-1 items-center shadow rounded bg-fuchsia-50 xl:w-4/5">
+          <div>
+            <img class="inline" src="images/icon-star.svg" alt="">
+            <img class="inline" src="images/icon-star.svg" alt="">
+            <img class="inline" src="images/icon-star.svg" alt="">
+            <img class="inline" src="images/icon-star.svg" alt="">
+            <img class="inline" src="images/icon-star.svg" alt="">
+          </div>
+          <p class="text-fuchsia-950">Rated 5 Stars in Reviews</p>
+        </div>
+        <!-- Platform 2 -->
+        <div class="flex flex-col gap-1 items-center shadow rounded bg-fuchsia-50 xl:w-4/5 xl:mx-auto">
+          <div>
+            <img class="inline" src="images/icon-star.svg" alt="">
+            <img class="inline" src="images/icon-star.svg" alt="">
+            <img class="inline" src="images/icon-star.svg" alt="">
+            <img class="inline" src="images/icon-star.svg" alt="">
+            <img class="inline" src="images/icon-star.svg" alt="">
+          </div>
+          <p class="text-fuchsia-950">Rated 5 Stars in Report Guru</p>
+        </div>
+        <!-- Platform 3 -->
+        <div class="flex flex-col gap-1 items-center shadow rounded bg-fuchsia-50 xl:w-4/5 xl:ml-auto">
+          <div>
+            <img class="inline" src="images/icon-star.svg" alt="">
+            <img class="inline" src="images/icon-star.svg" alt="">
+            <img class="inline" src="images/icon-star.svg" alt="">
+            <img class="inline" src="images/icon-star.svg" alt="">
+            <img class="inline" src="images/icon-star.svg" alt="">
+          </div>
+          <p class="text-fuchsia-950">Rated 5 Stars in BestTech</p>
+        </div>
+      </section>
+      <!-- User ratings -->
+      <section class="flex flex-col gap-5 xl:flex-row xl:col-span-2">
+        <!-- User 1 -->
+        <article class="flex flex-col gap-5 shadow bg-purple-900 p-5 rounded">
+          <div class="flex gap-5">
+            <img class="rounded-full" src="images/image-colton.jpg" alt="Image of Colton Smith">
+            <h2 class="my-auto text-white">
+              Colton Smith
+              <span class="block text-pink-700">Verified Buyer</span>
+            </h2>
+          </div>
+          <p class="text-white">
+            "We needed the same printed design as the one we had ordered a week prior.
+            Not only did they find the original order, but we also received it in time.
+            Excellent!"
+          </p>
+        </article>
+        <!-- User 2 -->
+        <article class="flex flex-col gap-5 shadow bg-purple-900 p-5 rounded mt-5 -mb-5">
+          <div class="flex gap-5">
+            <img class="rounded-full" src="images/image-irene.jpg" alt="Image of Irene Roberts">
+            <h2 class="my-auto text-white">
+              Irene Roberts
+              <span class="block text-pink-700">Verified Buyer</span>
+            </h2>
+          </div>
+          <p class="text-white">
+            "Customer service is always excellent and very quick turn around. Completely
+            delighted with the simplicity of the purchase and the speed of delivery."
+          </p>
+        </article>
+        <!-- User 3 -->
+        <article class="flex flex-col gap-5 shadow bg-purple-900 p-5 rounded mt-10 -mb-10">
+          <div class="flex gap-5">
+            <img class="rounded-full" src="images/image-anne.jpg" alt="Image of Anne Wallace">
+            <h2 class="my-auto text-white">
+              Anne Wallace
+              <span class="block text-pink-700">Verified Buyer</span>
+            </h2>
+          </div>
+          <p class="text-white">
+            "Put an order with this company and can only praise them for the very high
+            standard. Will definitely use them again and recommend them to everyone!"
+          </p>
+        </article>
+      </section>
+    </main>
+    <footer class="mt-auto">
+      <p>
+        Challenge by
+        <a class="text-sky-600" href="https://www.frontendmentor.io/home" target="_blank">Frontend Mentor</a>.
+        Coded by
+        <a class="text-sky-600" href="https://www.frontendmentor.io/profile/noelhoppe" target="_blank">Noel</a>.
+      </p>
+    </footer>
+  </body>
+</html>
